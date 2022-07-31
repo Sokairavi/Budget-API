@@ -1,13 +1,13 @@
 //Dependencies
 const express = require("express");
-// const cors = require("cors");
+const cors = require("cors");
 
 //Configuration
 const app = express();
 
 
 //Middleware code 
-// app.use(cors());
+app.use(cors());
 app.use(express.json());
 
 //Controllers
